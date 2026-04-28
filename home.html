@@ -1,6 +1,5 @@
 <html>
 <head>
-  <meta charset="UTF-8">
   <title>Home - DarkShadow SMP</title>
   <style>
     body {
@@ -11,8 +10,6 @@
       margin: 0;
       padding: 0;
     }
-
-    /* Attention Bar */
     .announcement-wrapper {
       width: 100%;
       background-color: #ff1744;
@@ -24,13 +21,11 @@
       left: 0;
       z-index: 999;
     }
-
     .announcement-box {
       width: 100%;
       padding: 12px 20px;
       box-sizing: border-box;
     }
-
     .announcement-text {
       display: inline-block;
       padding-left: 100%;
@@ -40,7 +35,6 @@
       font-weight: bold;
       white-space: nowrap;
     }
-
     @keyframes scroll-left {
       0% {
         transform: translateX(0%);
@@ -49,7 +43,6 @@
         transform: translateX(-100%);
       }
     }
-
     .content {
       padding-top: 120px;
       display: flex;
@@ -57,7 +50,6 @@
       gap: 20px;
       flex-wrap: wrap;
     }
-
     .section {
       background-color: #1f1f1f;
       color: #fff;
@@ -71,7 +63,6 @@
       transition: opacity 0.3s ease;
     }
 
-    /* Section 1 - Image with text */
     .section-1 {
       background-color: #1f1f1f;
       width: 100%;
@@ -104,8 +95,6 @@
       font-size: 18px;
       color: #bbbbbb;
     }
-
-    /* New inline styling for the text */
     .server-ip-address {
       display: flex;
       justify-content: center;
@@ -115,8 +104,6 @@
       color: white;
       gap: 20px;
     }
-
-    /* Add link styles */
     a {
       text-decoration: none;
       display: block;
@@ -126,21 +113,19 @@
       opacity: 0.9;
     }
 
-    /* Discord Logo Style */
     .discord-logo {
       position: fixed;
-      top: 60px; /* Adjusted position to move logo down slightly */
+      top: 60px;
       right: 20px;
       width: 40px;
       height: 40px;
       cursor: pointer;
-      border-radius: 50%; /* Make the logo round */
+      border-radius: 50%;
     }
   </style>
 </head>
 <body>
 
-  <!-- Attention Bar (Fixed at the top) -->
   <div class="announcement-wrapper">
     <div class="announcement-box">
       <div class="announcement-text">
@@ -149,13 +134,11 @@
     </div>
   </div>
 
-  <!-- Discord Logo (Fixed at the top right) -->
   <a href="https://discord.gg/UNuW6hCSTp" target="_blank">
     <img src="discord-logo.png" alt="Discord Logo" class="discord-logo">
   </a>
 
   <div class="content">
-    <!-- Section 1 with Image and Text wrapped in a link to a new page -->
     <a href="section1-page.html">
       <div class="section section-1">
         <div style="position: relative;">
@@ -173,13 +156,10 @@
       </div>
     </a>
 
-    <!-- Section 2 -->
     <div class="section">
       <h2>Section 2: Rules</h2>
       <p>This section can include the rules of the SMP server or any guidelines for users.</p>
     </div>
-
-    <!-- Section 3 -->
     <div class="section">
       <h2>Section 3: Updates</h2>
       <p>Here, you can add updates about DarkShadow SMP, like the upcoming features, events, etc.</p>
